@@ -36,11 +36,11 @@ For Postman users:
 
 #### GET
 
-https://civintel.appspot.com/api/voter/verify?hash=${hash}
+https://civintel-endpoints-4r6lbwbrta-uc.a.run.app/api/voter/verify?key=${key}&hash=${hash}
 
 
 #### POST
-https://civintel.appspot.com/api/voter/verifyList
+https://civintel-endpoints-4r6lbwbrta-uc.a.run.app/api/voter/verifyList?key=${key}
 
 Content-Type: application/json
 
@@ -51,4 +51,4 @@ Body:
 
 After authenticating with your Google Cloud account, access the API documentation:
 
-https://endpointsportal.civintel.cloud.goog/docs/civintel-endpoints-4r6lbwbrta-uc.a.run.app/0/routes/voter/verifyList/post
+https://endpointsportal.civintel.cloud.goog
