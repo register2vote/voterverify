@@ -1,6 +1,5 @@
 # Getting Started
 ---
-
 # Voter Registration Verification
 
 This tool is intended to automate checking voter registration.  You can find out if a given voter, or list of voters, is registered.
