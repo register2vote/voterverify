@@ -21,6 +21,8 @@ Generate a hash for each voter.  A hash contains no voter personal information, 
 
 We have a javascript file that you can use to generate hashes...
 
+  <<makeHash.js>>
+
 You can use the javascript file to discover the algorithm if you wish to implement it in another language.
 
 ### Call a web service
@@ -28,8 +30,9 @@ You can use the javascript file to discover the algorithm if you wish to impleme
 GET: 1 hash per request
 POST: 100 or fewer hashes per request -> json[]
 
-Postman config
-Swagger config
+For Postman users:
+
+  <<Postman config>>
 
 #### GET
 
@@ -43,3 +46,9 @@ Content-Type: application/json
 
 Body:
 
+
+### POWER USERS
+
+After authenticating with your Google Cloud account, access the API documentation:
+
+https://endpointsportal.civintel.cloud.goog/docs/civintel-endpoints-4r6lbwbrta-uc.a.run.app/0/routes/voter/verifyList/post
