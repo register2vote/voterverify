@@ -33,9 +33,9 @@ You can use the **Try this API** tool on the right side of an API method page to
 
 Generate a hash for each voter.  A hash contains no voter personal information, so submitting them to us does not disclose sensitive data.
 
-We have a javascript file that you can use to generate hashes...
+We have a javascript file that you can use to generate hashes. It's located at:
 
-  <<makeHash.js>>
+https://github.com/register2vote/voterverify
 
 You can use the javascript file to discover the algorithm if you wish to implement it in another language.
 
