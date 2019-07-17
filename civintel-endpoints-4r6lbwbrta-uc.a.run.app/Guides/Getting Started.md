@@ -46,8 +46,6 @@ POST: 100 or fewer hashes per request -> json[]
 
 For Postman users:
 
-  <<Postman config>>
-
 #### GET
 
 https://civintel-endpoints-4r6lbwbrta-uc.a.run.app/api/voter/verify?key=${key}&hash=${hash}
