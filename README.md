@@ -44,8 +44,7 @@ https://civintel-endpoints-4r6lbwbrta-uc.a.run.app/api/voter/verifyList?key=${ke
 
 Content-Type: application/json
 
-Body:
-
+The "confidence score" returned by VoterVerify is the number of hashes which match a submission.  Current possible values are 0-3.  A "hash" in the case of VoterVerify is a particular combination of voter attributes like last name, zip code, date of birth, etc.  We generally consider a confidence score above 0 as success/verified because it is likely that some hashes may not match due to missing or inconsistent value in either the input/submitted fields or the stored/voterfile fields.
 
 ### POWER USERS
 
